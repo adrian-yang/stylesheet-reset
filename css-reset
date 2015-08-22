@@ -4,7 +4,6 @@
  * @version reset inherit from Yahoo!
  ===================*/
 
-/*html{color:#000;background:#FFF;} */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form, 
 fieldset,input,textarea,p,blockquote,th,td { 
 margin:0; 
@@ -38,32 +37,25 @@ abbr,acronym { border:0;
 }
 
  /*============ add css =============*/
+a{
+        text-decoration: none;
+}
 a: focus,a: hover,a: active,input: focus,textarea: focus {
         outline: 0
 }
 button {
         cursor: pointer
 }
+input,button,textarea{
+        outline: none;
+}
 button[disabled],input[disabled] {
         cursor: default
 }
 body {
-		font-family: "微软雅黑"; /*add*/
-		font-size: 12px;/*add*/
+	font-family: "微软雅黑"; 
+	font-size: 12px;
         vertical-align: baseline;
         background-color: transparent;
         -webkit-backface-visibility: hidden
 }
-/*button,input {
-        *overflow: visible;
-        line-height: normal;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box
-}
-button,input,select,textarea {
-        *vertical-align: middle
-}
-button,input {
-        *overflow: visible
-}*/
