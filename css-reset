@@ -53,7 +53,7 @@ button[disabled],input[disabled] {
         cursor: default
 }
 body {
-	font-family: "微软雅黑"; 
+	font-family: "Microsoft Yahei"; 
 	font-size: 12px;
         vertical-align: baseline;
         background-color: transparent;
